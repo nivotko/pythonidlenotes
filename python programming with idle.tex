@@ -40,53 +40,75 @@
 
 \section{Iteration}
 
-\section{List, Set, Tuples, and Dictionary}
+\section{String}
 
 \section{Function}
+
+\section{List, Set, Tuples, and Dictionary}
 
 \section{Object and Class}
 
 \section{Exercise}
 
-\subsection{Exercise for Section 1 to 4}
-\emph{The following tasks can be done by using only Python commands mentioned in Section 1 to 4.}
+\subsection{Latihan untuk Bagian 1-5}
 
 \begin{enumerate}
-	\item Write a program to calculate the volume of water in liters when one centimeter of water falls on one hectare.
-	\item A day has 86,400 seconds (24*60*60). Given a number in the range 1-86,400, output the current time as hours, minutes,and seconds with a 24-hour clock. For example, 70,000 second is 19 hours, 26 minutes, and 40 seconds.
-	\item If the lengths of the two parallel sides of a trapezoid are $X$ meters and $Y$ meters, respectively, and the heightis $H$ meters, what is the are of the trapezoid? Write Python code to output the area.
-	\item Simple interest is calculated by the product of of the principal, number of years, and interest, all divided by 100. Write code to calculate he simple interest on a pricipal amount of \$10,000 for a duration of 5 years with the rate of interest equal to 12,5\%.
-	\item Consider a triangle with sides of length $3,7,$ and $9$. The law of cosines states that given three sides of a triangle ($a$, $b$, and $c$) and the angle $C$ between sides $a$ and $b$; $c^2=a^2+b^2-2ab \cos (C)$. Write Python code to calculate the three angles in the triangle.
-	\item (Using modules) Python comes with hunders of modules. here is a challenge for you: find a module that you can import that will generate today's date so you can print it. Use your favorite search engine for help in finding which module you need and how to use it. In the end, you task is to do the following:
+	%\item A day has 86,400 seconds (24*60*60). Given a number in the range 1-86,400, output the current time as hours, minutes, and seconds with a 24-hour clock. For example, 70,000 second is 19 hours, 26 minutes, and 40 seconds.
+	\item Dalam satu hari, ada 86.400 detik (24*60*60). Diberikan sebuah bilangan bulat dalam rentang 1-86.400, program mencetak hasil konversi bilangan tersebut yang awalnya bersatuan detik ke dalam jam, menit, dan detik. Sebagai contoh, 70.000 detik adalah 19 jam, 26 menit, dan 40 detik.
+	%\item If the lengths of the two parallel sides of a trapezoid are $X$ meters and $Y$ meters, respectively, and the heightis $H$ meters, what is the are of the trapezoid? Write Python code to output the area.
+	\item Jika panjang dari dua sisi sejajar dari sebuah trapesium adalah $X$ meter dan $Y$ meter, berturut-turut, dan tingginya adalah $H$ meter, berapakah luas dari trapesium? Buat program Python untuk mencetak luasnya.
+	%\item Simple interest is calculated by the product of of the principal, number of years, and interest, all divided by 100. Write code to calculate he simple interest on a pricipal amount of \$10,000 for a duration of 5 years with the rate of interest equal to 12,5\%.
+	\item Bunga sederhana dihitung dengan mengalikan nilai utama, banyak tahun, dan nilai bunganya, lalu dibagi 100. Buat program untuk menghitung bunga sederhana pada nilai utama sebesar Rp 100.000.000,00 untuk durasi 5 tahun dengan bunga 12.5\%.
+	%\item Consider a triangle with sides of length $3,7,$ and $9$. The law of cosines states that given three sides of a triangle ($a$, $b$, and $c$) and the angle $C$ between sides $a$ and $b$; $c^2=a^2+b^2-2ab \cos (C)$. Write Python code to calculate the three angles in the triangle.
+	\item Pandang sebuah segitiga dengan panjang sisi $3$, $7$, dan $9$. Hukum kosinus mengatakan bahwa diberikan tiga sisi segitiga $a$, $b$, dan $c$, sudut $C$ di antara sisi $a$ dan $b$, berlaku $c^2=a^2+b^2-2ab \cos(C)$. Buat program Python untuk menghitung besar sudut di ketiga segitiga.
+	%\item (Using modules) Python comes with hunders of modules. here is a challenge for you: find a module that you can import that will generate today's date so you can print it. Use your favorite search engine for help in finding which module you need and how to use it. In the end, you task is to do the following:
+	
+	\item (Menggunakan modul) Python memiliki ratusan modul yang dapat digunakan oleh pemrogramnya. Berikut adalah tantangan untuk Anda: cari sebuah modul yang dapat Anda impor yang menghasilkan tanggal hari ini sehingga Anda bisa cetak tanggal tersebut. Gunakan mesin pencari favorit Anda untuk mencari modul apa yang Anda butuhkan dan bagaimana cara menggunakannya. Pada akhirnya, tugas Anda adalah untuk melakukan hal berikut:
 	
 	\texttt{>>> print("Today's date is:", X)}
 	
 	\texttt{Today's date is: 2009-05-22}
 	
-	\item Body Mass Index (BMI) is a number calculated from a person's weight and height. According to the Centers for Disease Control, tyhe BMI is a fairly reliable indicator of body fatness for most people. BMI does not measure body fat directly, but research has shown that BMI correlates to direct measures of body fat, such as underwater weighing and dual energy X-ray absorptiometry. The formula for BMI is $weight/height^2$ WHERE $weight$ is in kilograms and $heigh$ is in meters.
+	%\item Body Mass Index (BMI) is a number calculated from a person's weight and height. According to the Centers for Disease Control, tyhe BMI is a fairly reliable indicator of body fatness for most people. BMI does not measure body fat directly, but research has shown that BMI correlates to direct measures of body fat, such as underwater weighing and dual energy X-ray absorptiometry. The formula for BMI is $weight/height^2$ where $weight$ is in kilograms and $height$ is in meters.
+	\item Body Mass Index (BMI) adalah sebuah bilangan yang dihitung dari berat dan tinggi seseorang. Berdasarkan Centers for Disease Control, nilai BMI merupakan indikator yang cukup bisa dipercaya untuk kondisi lemak di tubuh seseorang. BMI tidak mengukur lemak tubuh secara langsung, namun riset sudah menunjukkan bahwa hasilnya berkorelasi dengan pengukuran lemak tubuh secara langsung, seperti melalui pembobotan di bawah air dan \emph{dual energy X-ray absorptiometry}. Rumus BMI adalah $berat/tinggi^2$ di mana $berat$ bersatuan kilogram dan $tinggi$ bersatuan meter.
 	\begin{enumerate}
-		\item Write a program that prompts for metric weight and height and outputs the BMI.
-		\item Write a program that prompts for weight in pounds and height in inches, converst the avlues to metric (kilograms and meters), and then calculate the BMI.
+		%\item Write a program that prompts for metric weight and height and outputs the BMI.
+		\item Buat sebuah program yang meminta berat dan tinggi pengguna dalam satuan metrik (kilogram dan meter), lalu cetak BMI-nya.
+		%\item Write a program that prompts for weight in pounds and height in inches, convert the avlues to metric (kilograms and meters), and then calculate the BMI.
+		\item Buat program yang meminta berat dalam pon dan tinggi dalam inci, lalu mengonversi nilainya ke dalam metrik, dan mencetak nilai BMI-nya.
 	\end{enumerate}
-	\item Write a program taht prompts the user to input an integer that represents cents. The program will then calculate the smallest combination of coins that the user has. For example, 32 cents is 1 quarter (25 cents), 1 nickle (5 cents), and 2 pennies (1 cent).
+	%\item Write a program taht prompts the user to input an integer that represents cents. The program will then calculate the smallest combination of coins that the user has. For example, 32 cents is 1 quarter (25 cents), 1 nickle (5 cents), and 2 pennies (1 cent).
+	\item Buat sebuah program yang meminta pengguna untuk memasukkan sebuah bilangan bulat yang menyatakan suatu nilai Rupiah (kelipatan 1000). Program akan menghitung kombinasi dengan paling sedikit kertas yang digunakan yang nilainya dalam Rupiah sama dengan nilai yang dimasukkan pengguna. Sebagai contoh, nilai Rp 178.000,00 dapat diperoleh dengan 1 lembar Rp 100.000,00, 1 lembar Rp 50.000,00, 1 lembar Rp 20.000,00, 1 lembar Rp 2.000,00, dan 1 lembar Rp 1.000,00. Lembar kertas yang tersedia adalah:
+	\begin{itemize}
+		\item Rp 100.000,00
+		\item Rp 50.000,00
+		\item Rp 20.000,00
+		\item Rp 10.000,00
+		\item Rp 5.000,00
+		\item Rp 2.000,00
+		\item Rp 1.000,00.
+	\end{itemize}
 \end{enumerate}
 
 \subsection{Exercise for Section 5 and 6}
 
 \begin{enumerate}
-	\item In an earlier set of exercises, you were asked to calculate one's BMI. Augment that program by printing out where that BMI fits in the CDC standard wright status categories:
+	%\item In an earlier set of exercises, you were asked to calculate one's BMI. Augment that program by printing out where that BMI fits in the CDC standard wright status categories:
+	\item Pada latihan sebelumnya, Anda diminta untuk menghitung BMI seseorang. Lengkapi program Anda dengan mencetak di kategori apa BMI tersebut berada berdasarkan standar berat badan CDC berikut:
 	\begin{center}
 		\begin{tabular}{|c|c|} \hline
-		BMI & Weight Status \\ \hline
-		Below 18.5 & Underweight \\ \hline
+		BMI & Standar Berat \\ \hline
+		Di bawah 18.5 & Underweight \\ \hline
 		18.5-24.9 & Normal \\ \hline
 		25.0-29.9 & Overweight \\ \hline
-		30.0 and above & Obese \\ \hline
+		30.0 ke atas & Obese \\ \hline
 		\end{tabular}
 	\end{center}
-	\item Write a program that counts the numebr of odd numbers, even numbers, and squares from 2 to 25 (inclusive).
-	\item Simplify the following code so that it does not use any \texttt{break} or \texttt{continue} statements, yet the logic is equivalent.
+	\item Buat sebuah program yang menghitung banyaknya bilangan ganjil,bilangan genap, dan bilangan kuadrat sempurna dari 2 hingga 25 (inklusif).
+	%\item Simplify the following code so that it does not use any \texttt{break} or \texttt{continue} statements, yet the logic is equivalent.
+	\item Sederhanakan program berikut sehingga ia  tidak menggunakan perintah \texttt{break} ataupun \texttt{continue}, namun logikanya masih ekivalen.
 	
+
 	\texttt{counter = 0}
 	
 	\texttt{while True:}
@@ -109,21 +131,12 @@
 	
 	\item 
 	\begin{enumerate}
-		\item Write a program that prompts and integer -- let's call it $X$-- and then finds the sum of $X$ consecutive integers starting at 1. That is, if $X=5$, you will find teh sum of $1+2+3+4+5=15$.
-		\item Modify your program by enclosing your loop in another loop so that you can find consecutive sums. For example, if 5 is entered, youwill find five sums of consecutive numbers:
-		
-		\begin{tabular}{|l|c|l|}
-		1 & = & 1 \\
-		1+2 & = & 3 \\
-		1+2+3 & = & 6 \\
-		1+2+3+4 & = & 10 \\
-		1+2+3+4+5 & = & 15
-		\end{tabular}
-		Print only each sum, not the arithmetic expression.
-		\item Print also the arithmetic expression.
+		%\item Write a program that prompts and integer -- let's call it $X$-- and then finds the sum of $X$ consecutive integers starting at 1. That is, if $X=5$, you will find teh sum of $1+2+3+4+5=15$.
+		\item Buat sebuah program yang meminta sebuah bilangan bulat positif -- sebut saja $X$-- dan mencetak hasil jumlah $X$ bilangan bulat positif pertama dimulai dari $1$. Yaitu, jika $X=5$, jumlahnya adalah $15$ karena $1+2+3+4+5=15$.
+		\item Lengkapi program Anda sehingga ia mencetak operasi aritmetika yang relevan. Sebagai contoh, untuk $X=5$, program Anda mencetak $1+2+3+4+5=15$.
 	\end{enumerate}
-	\item Write a program that prompts for an integer and prints the integer, but if something other than that an integer is input, the program keeps asking for an integer. Here is a simple session:
-	
+	%\item Write a program that prompts for an integer and prints the integer, but if something other than that an integer is input, the program keeps asking for an integer. Here is a simple session:
+	\item Buat sebuah program yang meminta sebuah bilangan bulat dan mecetak bilangan bulat tersebut; namun jika yang dimasukkan bukan bilangan bulat, program meminta ulang hingga pengguna memasukkan bilangan bulat. Berikut adalah contoh sesinya:
 	\texttt{Input an integer: abc}
 	
 	\texttt{Error: try again}
@@ -139,17 +152,15 @@
 	\texttt{Input an integer: 123}
 	
 	\texttt{The integer is: 123}
-	\item A positive integer is called \emph{perfect} if the sum of all its proper divisors equals the number. For example, 6 is a perfect number since $6=1+2+3$.
-	
-	Write a short program that will:
-	\begin{itemize}
-		\item prompt the user for a number,
-		\item print out whether the number is a perfect number,
-		\item prompt the user for another numbe rif the input was not a perfect square.
-	\end{itemize}
-	\item Write a program that checks to see if a  number $N$ is a prime. A simple approach checks all numbers from 2 up to $N$, but after some point numbers are checked that need not be checked. For example, numbers greater than $\sqrt{N}$ need not be checked. Write a program that checks for primality and avoids those unnecessary checks. Remember to import the \texttt{math} module.
-	\item Find the two-digit number such that when you square it, gthe resulting three-digit number has its rightmost two digits the same a sthe original two-digit number. That is, for a number in form $AB$, $AB*AB=CAB$ for some $C$.
-	\item A famous puzzle follows.
+	%\item A positive integer is called \emph{perfect} if the sum of all its proper divisors equals the number. For example, 6 is a perfect number since $6=1+2+3$.
+	\item Sebuah bilangan bulat positif disebut \emph{sempurna} jika hasil jumlah semua faktornya yang kurang dari dirinya sama dengan dirinya sendiri. Sebagai contoh, $6$ merupakan bilangan sempurna, karena $1+2+3=6$.
+	%Write a short program that will:
+	Buatlah sebuah program yang meminta pengguna memasukkan sebuah bilangan bulat positif dan memeriksa apakah bilangan tersebut merupakan bilangan sempurna atau bukan.
+	%\item Write a program that checks to see if a  number $N$ is a prime. A simple approach checks all numbers from 2 up to $N$, but after some point numbers are checked that need not be checked. For example, numbers greater than $\sqrt{N}$ need not be checked. Write a program that checks for primality and avoids those unnecessary checks. Remember to import the \texttt{math} module.
+	\item Buat sebuah program yang memeriksa apakah sebuah bilangan asli $N$ merupakan bilangan prima atau bukan. Salah satu pendekatan sederhana adalah mengecek semua bilangan dari 2 hingga $N$, namun sebenarnya pengecekan hanya perlu sampai $\sqrt{N}$. Buat sebuah program yang memeriksa keprimaan tanpa melakukan pengecekan yang tidak perlu.  
+	%\item Find the two-digit number such that when you square it, gthe resulting three-digit number has its rightmost two digits the same a sthe original two-digit number. That is, for a number in form $AB$, $AB*AB=CAB$ for some $C$.
+	%\item A famous puzzle follows.
+	\item Berikut adalah sebuah teka-teki.
 	\begin{center}
 		\begin{tabular}{ccccc}
 			&S&E&N&D \\
@@ -157,7 +168,62 @@
 		M	&O&N&E&Y
 		\end{tabular}
 	\end{center}
-	What integer values can be substituted to make the addition correct? Write a program to solve this puzzle. \emph{Hint: Brute force works well --- try all possibilities.}
-	\item Write a program to find 
+	Digit apa yang dapat disubstitusi ke huruf-huruf tersebut  sehingga ekspresi penjumlahan di atas benar? Buat sebuah program untuk menyelesaikan teka-teki ini. Petunjuk: Pendekatan \emph{brute force} dapat digunakan -- cari semua kemungkinan.
+	\item Buat sebuah program yang meminta pengguna memasukkan bilangan bulat positif $n$ dan mencetak $n$ suku pertama dari barisan  Fibonacci. Program harus memeriksa bahwa $n$ merupakan bilangan bulat positif. [Petunjuk: Dua bilangan pertama dari barisan Fibonacci adalah 1 dan 1 dan suku ke-$n$ adalah hasil jumlah suku ke $n-1$ dan suku ke-$n-2$. Sebagai contoh, enam suku pertama barisan Fibonacci adalah $1,1,2,3,5,8$.]
+	\item Buat sebuah program yang menjumlah semua digit-digit dari sebuah bilangan bulat positif. Jika hasil jumlahnya lebih dari satu digit, program mengulangi proses ini terus menerus hingga hasil jumlah yang didapatkan satu digit. Sebagai contoh $827$ memiliki hasil jumlah $8+2+7=17$ yang memiliki hasil jumlah $1+7=8$, yang merupakan jawaban akhir Anda.
+	\item Saya berpikir tentang sebuah bilangan dari 1 hingga 100. Anda dan saudara Anda bertengkar demi mendapatkan sepotong kue. Buatlah sebuah program yang memilih sebuah bilangan acak antara 1 hingga 100 dan meminta ke dua orang pengguna masing-masing sebuah bilangan. Pengguna yang masukannya lebih dekat dengan bilangan rahasia menang. Pastikan program Anda mencetak bilangan rahasia tersebut juga selain mencetak juga siapa yang menang.
+	\item Buat programyang memungkinkan Anda bermain suit \emph{rock, paper, scissor} melawan komputer. Impor modul \texttt{random} untuk memilih pilihan komputer.
+\end{enumerate}
+
+\subsection{Latihan untuk String}
+
+\begin{enumerate}
+	\item Diberikan string \texttt{'abcdefghij'}. Tuliskan sebuah kode yang akan mencetak string berikut menggunakan \emph{slicing} pada string:
+	\begin{enumerate}
+		\item \texttt{'jihgfedcba'}
+		\item \texttt{'adgj'}
+		\item \texttt{'igeca'}.
+	\end{enumerate}
+	\item Buatlah program yang menerima sebuah kalimat dalam bahasa Inggris lalu menghitung banyaknya huruf kapital, huruf kecil, digit, dan tanda baca pada kalimat tersebut.
+	\item Buat sebuah program yang menerima nama pertama dan nama akhir dari seseorang, yang mana nama terakhir hanya terdiri dari satu kata kemudian mencetak dalam satu baris gabungan namanya dengan setiap kata pada nama pertama disingkat menggunakan titik. Sebagai contoh, jika nama pertamanya adalah \texttt{Raja Oktovin Parhasian} dan nama akhirnya \texttt{Damanik}, program mencetak \texttt{R. O. P. Damanik}.
+	\item Anda membuat sebuah akun dan harus membuat kata sandi. Kata ssandi harus memenuhi syarat berikut:
+	\begin{enumerate}
+		\item Kata sandi harus terdiri dari minimal 6 karakter dan maksimal 20 karakter.
+		\item Kata sandi harus mengandung minimal satu huruf kapital, satu huruf kecil, dan satu bilangan. 
+	\end{enumerate}
+	Buat sebuah program yang meminta pengguna memasukkan sebuah kata sandi dan memeriksa apakah kata sandi yang dimasukkan valid atau tidak. Jika kata sandinya valid, cetak pesan konfirmasi. Jika tidak, berikan juga pesan konfirmasi, namun minta ulang kata sandi yang baru dimasukkan hingga valid.
+	\item Buat sebuah program yang mencetak tabel perkalian untuk bilangan 0 hingga 12. Semua perhitungan aritmetika yang dibutuhkan di tabel dilakukan oleh komputer. Lakukan pengaturan format (dengan \texttt{format-string}) tabel agar tanda kali, tanda sama dengan, dan bilangan yang muncul secara rata pada tabelnya.
+	\item Berdasarkan sebuah riset tentang kemampuan otak manusia yang dilakukan oleh peneliti di Cambridge University, urutan kemunculan huruf di dalam sebuah kata tidak penting; yang penting hanyalah bahwa huruf pertama dan terakhir kata tersebut berada di posisi yang benar. Sisanya dapat diacak-acak dan Anda tetap dapat membacanya tanpa masalah. Ini karena pikiran manusia tidak membaca sebuah kata secara huruf per huruf, namun sebuah kata secara utuh. Keren, bukan? Buatlah sbeuah program yang meminta sebuah kata dalam bahasa Indonesia dan mengacak huruf-hurufnya kecuali huruf pertama dan terakhir. \emph{Petunjuk: Gunakan modul \texttt{random} yang ada di Python.}
+	\item Buatlah sebuah program yang memungkinan pengguna bermain HANGMAN. Gunakan karakter untuk mencetak status HANGMAN. String dengan tiga tanda petik ''' akan berguna untuk menggambar HANGMAN-nya. \emph{Petunjuk: Gambarkan seluruh status HANGMAN sebagai sebuah gambar menggunakan string, satu string gambar untuk masing-masing status.}
+\end{enumerate}
+
+\subsection{Latihan untuk Fungsi}
+\begin{enumerate}
+	\item Buat sebuah program yang menerima sebuah kalimat dalam bahasa Indonesia (sebuah string) dan mencetak banyakanya huruf vokal dan huruf konsonan di dalam kalimat tersebut. Fungsi tersebut tidak me-\texttt{return} apapun. Perhatikan bahwa kalimat tersebut dapat mengandung tanda baca seperti spasi, titik, koma, tanda seru, dan lain-lain.
+	\item  Buat sebuah program yang menerima sebuah string dalam format
+	\begin{center} \texttt{"MM/DD/YYYY HR:MIN:SEC"}
+	\end{center}
+	dan mencetak:
+	\begin{itemize}
+		\item DD/MM/YYYY
+		\item HR:MIN:SEC 
+		\item Apakah waktunya AM atau PM.
+	\end{itemize}
+	Validasi masukan wajib dilakukan. Misalnya, jika pengguna memasukkan "122/04/1990 13:12:12", string ini tidak valid sebab hanya mungkin terdapat 12 bulan dalam satu tahun. Pikirkan semua kemungkinan eror yang dapat terjadi pada masukan, dan buat program untuk menanganinya. Fungsi ini tidak me-\texttt{return} apa-apa.
+	\item Buat sebuah program yang menerima sebuah nominal Rupiah (kelipatan 1000), lalu mencetak semua kemungkinan kombinasi uang kertas yang jumlah nilainya sebesar nominal tersebut jika seandainya uang kertas yang tersedia adalah:
+	\begin{itemize}
+		\item Rp 1.000,00
+		\item Rp 2.000,00
+		\item Rp 5.000,00
+		\item Rp 10.000,00
+		\item Rp 20.000,00
+		\item Rp 50.000,00
+		\item Rp 100.000,00.
+	\end{itemize}
+	\item 
+	\begin{enumerate}
+		\item Buat program yang melakukan hal yang sama dengan sebelumnya, namun hanya menggunakan kombinasi banyak uang ketas yang paling sedikit. Buat agar programnya seefisien mungkin.
+		\item Bagaimana jika ditambahkan uang senilai Rp 75.000,00?
+	\end{enumerate}
 \end{enumerate}
 \end{document}
